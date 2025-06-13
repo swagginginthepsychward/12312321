@@ -3468,7 +3468,7 @@ end
             name = options.name or nil,
             flag = options.flag or tostring(random(1,9999999)),
 
-            items = options.items or {"1", "2", "3"},
+            items = options.items or {"w", "ww", "wwww"},
             callback = options.callback or function() end,
             multi = options.multi or false, 
             visible = options.visible or true,
